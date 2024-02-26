@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Quary</title>
+    <style>
+        img{
+            width: 100%;
+        }
+        .container{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            grid-gap: 20px;
+        }
+        .Cars{
+            border: 2px solid lightseagreen;
+            border-radius: 8px;
+        }
+        .Cars img{
+            width: 100%;
+
+        }
+        h1{
+            text-align: center;
+            color: cadetblue;
+        }
+        @media screen and (max-width: 576px) {
+            .container{
+                grid-template-columns: repeat(1,1fr);
+            }
+            
+        }
+
+        @media  screen and (min-width: 576px) and (max-width:992px) {
+            .container{
+                grid-template-columns: repeat(2,1fr);
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>My Favourite Cars </h1>
+    <div class="container">
+        <div class="Cars">
+            <img src="./images/Chevrolet Camaro ZL1.jpg" alt="">
+            <h2>Chevrolet Camaro ZL1</h2>
+            <p>price: 010000</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi, excepturi?</p>
+        </div>
+        <div class="Cars">
+            <img src="./images/Chevrolet Corvette Z06.jpg" alt="">
+            <h2>Chevrolet Corvette Z06</h2>
+            <p>price: 020000</p>
+            <p>Quisquam laboriosam, eos quis quod possimus unde dolor laudantium at.</p>
+        </div>
+        <div class="Cars">
+            <img src="./images/Chevrolet Corvette.jpg" alt="">
+            <h2>Chevrolet Corvette</h2>
+            <p>price: 030000</p>
+            <p>Repudiandae temporibus id laudantium harum est autem debitis possimus totam.</p>
+        </div>
+        <div class="Cars">
+            <img src="./images/Ford F-150 Raptor.jpg" alt="">
+            <h2>Ford F-150 Raptor.jpg</h2>
+            <p>price: 040000</p>
+            <p>Sequi voluptatem ea cupiditate dolore eos, eligendi fuga voluptate. Quae.</p>
+        </div>
+        <div class="Cars">
+            <img src="./images/Ford Mustang.jpg" alt="">
+            <h2>Ford Mustang</h2>
+            <p>price: 050000</p>
+            <p>Aliquid vitae deleniti odit reprehenderit dolorem. Iusto voluptates corrupti quod.</p>
+        </div>
+        <div class="Cars">
+            <img src="./images/Hyundai Santa Cruz.jpg" alt="">
+            <h2>Hyundai Santa Cruz</h2>
+            <p>price: 060000</p>
+            <p>Omnis architecto fugiat necessitatibus quod dolore corporis possimus, ut cum!</p>
+        </div>
+        <div class="Cars">
+            <img src="./images/Mazda MX-5 Miata.jpg" alt="">
+            <h2>Mazda MX-5 Miata</h2>
+            <p>price: 070000</p>
+            <p>Officiis nobis incidunt saepe dolore impedit fuga suscipit officia tempora!</p>
+        </div>
+        <div class="Cars">
+            <img src="./images/McLaren Artura.jpg" alt="">
+            <h2>McLaren Artura</h2>
+            <p>price: 080000</p>
+            <p>Soluta possimus est suscipit reprehenderit quo tenetur, atque accusantium veritatis?</p>
+        </div>
+        <div class="Cars">
+            <img src="./images/Porsche 911 GT3 RS.jpeg" alt="">
+            <h2>Porsche 911 GT3 RS</h2>
+            <p>price: 090000</p>
+            <p>Iste possimus culpa placeat pariatur necessitatibus, consectetur blanditiis ratione quod!</p>
+        </div>
+        <div class="Cars">
+            <img src="./images/Porsche 911 Turbo.jpg" alt="">
+            <h2>Porsche 911 Turbo</h2>
+            <p>price: 100000</p>
+            <p>Repudiandae maxime animi quam blanditiis beatae amet nulla odio temporibus!</p>
+        </div>
+        <div class="Cars">
+            <img src="./images/Porsche 911.jpg" alt="">
+            <h2>Porsche 911</h2>
+            <p>price: 110000</p>
+            <p>Beatae maxime maiores nam quidem odio sint velit placeat voluptatem.</p>
+        </div>
+        <div class="Cars">
+            <img src="./images/Subaru BRZ.jpg" alt="">
+            <h2>Subaru BRZ</h2>
+            <p>price: 120000</p>
+            <p>Beatae amet quam sint maiores blanditiis aspernatur in, praesentium voluptatibus.</p>
+        </div>
+        <div class="Cars">
+            <img src="./images/Toyota GR Supra.jpg" alt="">
+            <h2>Toyota GR Supra</h2>
+            <p>price: 130000</p>
+            <p>Maxime incidunt corporis cupiditate laudantium tempora quaerat laborum perspiciatis totam?</p>
+        </div>
+        <div class="Cars">
+            <img src="./images/Toyota GR86.jpg" alt="">
+            <h2>Toyota GR86</h2>
+            <p>price: 140000</p>
+            <p>Voluptatem iste, deserunt tempore perspiciatis iure ipsa voluptas sed aut!</p>
+        </div>
+    </div>
+
+</body>
+</html>
